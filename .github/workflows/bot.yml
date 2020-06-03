@@ -7,7 +7,8 @@ on:
   pull_request:
     types: [opened, edited, closed, assigned, unassigned, labeled, unlabeled, reopened, synchronize, ready_for_review, review_requested, review_request_removed]   
   schedule:
-    - cron:  '*/5 * * * *'    
+    - cron:  '*/5 * * * *'
+       
 jobs:
   triage:
     # The type of runner that the job will run on
